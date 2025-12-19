@@ -3,7 +3,7 @@ name: Playwright & Allure Reports
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
 
 jobs:
@@ -148,4 +148,4 @@ jobs:
           echo "Reports Published!!"
           echo "Playwright Built-in: https://github.com/kirantrk/2025KIRANPLAYWRIGHT/playwright-report/index.html"
           echo "Playwright HTML Reporter: https://github.com/kirantrk/2025KIRANPLAYWRIGHT/playwright-html-report/index.html"
-          # echo "Allure: https://naveenanimation20.github.io/June2025PWFramework/allure-report/index.html"
+          echo "Allure: https://naveenanimation20.github.io/June2025PWFramework/allure-report/index.html"
