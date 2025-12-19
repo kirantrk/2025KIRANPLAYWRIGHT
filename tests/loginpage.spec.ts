@@ -4,7 +4,7 @@ import {test , expect} from '../fixtures/baseFixtures';
 import { LoginPage } from "../pages/LoginPage";
 import { HomePage } from "../pages/HomePag";
 
-test("verify valid login", async ({ homePage }) => {
+test("verify valid Login", async ({ homePage }) => {
 
   await expect(homePage.page).toHaveTitle('My Account');
 
